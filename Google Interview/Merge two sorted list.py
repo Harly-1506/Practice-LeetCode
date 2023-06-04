@@ -1,7 +1,7 @@
 """
 A simple Python program to introduce a linked list 
 """
-class Node:
+class ListNode:
     def __init__(self, data, next = None):
         self.data = data
         self.next = next
@@ -13,9 +13,9 @@ class LinkedList:
 
 #call function
 Llist = LinkedList() #init
-Llist.head = Node(1)
-second = Node(2)
-third = Node(3)
+Llist.head = ListNode(1)
+second = ListNode(2)
+third = ListNode(3)
 
 #link all node
 Llist.head.next = second
